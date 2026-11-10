@@ -10,7 +10,8 @@
         "terraform/modules/bedrock-guardrail/README.md",
         "terraform/modules/bedrock-knowledge-base/README.md",
         "terraform/modules/bedrock-app-access/README.md"
-      ]
+      ],
+      "bump-minor-pre-major": true
     }
   }
 }
