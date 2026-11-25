@@ -2,6 +2,8 @@
 
 [![terraform](https://github.com/Krustytoe/aws-genai-platform/actions/workflows/terraform.yml/badge.svg)](https://github.com/Krustytoe/aws-genai-platform/actions/workflows/terraform.yml) [![app](https://github.com/Krustytoe/aws-genai-platform/actions/workflows/app.yml/badge.svg)](https://github.com/Krustytoe/aws-genai-platform/actions/workflows/app.yml) [![Release](https://img.shields.io/github/v/release/Krustytoe/aws-genai-platform)](https://github.com/Krustytoe/aws-genai-platform/releases/latest) [![License](https://img.shields.io/github/license/Krustytoe/aws-genai-platform)](LICENSE)
 
+> **When to use this repo:** Use this repo when you want to deploy or update a private AI question-answering app on AWS (Amazon Bedrock) that only answers from approved documents, enforces safety guardrails, and tracks per-team costs.
+
 A production-shaped **retrieval-augmented generation (RAG) platform on Amazon Bedrock**: Terraform for the guardrailed, private, audited AI infrastructure, a FastAPI service that answers questions only from approved documents (with citations), and an eval suite that gates every change.
 
 Built to work **unchanged in AWS commercial and GovCloud**: partition-aware ARNs, nothing hard-coded to `arn:aws:`.
