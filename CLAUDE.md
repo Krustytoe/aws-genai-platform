@@ -16,7 +16,7 @@ Retrieval-augmented generation (RAG) platform on Amazon Bedrock: Terraform modul
   - `app/tests/` - pytest suite; Bedrock calls go through botocore `Stubber`.
 - `evals/` - `promptfooconfig.yaml`, `tests.yaml`, and the sample policy corpus in `evals/corpus/`.
 - `scripts/sync-knowledge-base.sh` - uploads documents to S3 and runs a Bedrock ingestion job.
-- `.github/workflows/` - `terraform`, `app`, `security`, `evals-deployed`, `release-please`, `dependabot-auto-merge`, `ruler`.
+- `.github/workflows/` - `terraform`, `app`, `security`, `evals-deployed`, `release-please` (also attaches the image tarball, CycloneDX SBOM and signed attestations to each release), `scorecard` (OpenSSF), `dependabot-auto-merge`, `ruler`.
 
 ## Commands
 
